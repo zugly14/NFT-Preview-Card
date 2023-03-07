@@ -1,0 +1,96 @@
+:root {
+	/* Primary */
+	--soft-blue: hsla(215, 52%, 70%, 0.536);
+	--cyan: hsl(178, 100%, 50%);
+	/* Neutral */
+	--very-dark-blue-main-BG: hsl(217, 54%, 11%);
+	--very-dark-blue-card-BG: hsl(216, 50%, 16%);
+	--very-dark-blue-line: hsl(215, 32%, 27%);
+}
+
+body {
+	background-color: var(--very-dark-blue-main-BG);
+	overflow: hidden;
+	font-family: 'Outfit', sans-serif;
+}
+
+.card {
+	position: relative;
+	background-color: var(--very-dark-blue-card-BG);
+	width: 300px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 15vh;
+	border-radius: 10px;
+	overflow: hidden;
+	font-family: 'Outfit', sans-serif;
+	padding: 27px;
+}
+
+.nft-image {
+	width: 300px;
+	border-radius: 10px;
+}
+
+.card__nft-name {
+	font-size: 20px;
+}
+
+.white-text {
+	color: white;
+}
+
+.lightblue-text {
+	color: var(--soft-blue);
+}
+
+.extras {
+	display: inline-block;
+	margin: 0;
+}
+
+.eth-icon {
+	position: absolute;
+}
+
+.card__price {
+	position: relative;
+	right: -17px;
+	color: var(--cyan);
+}
+
+.clock-icon {
+	position: relative;
+	right: -200px;
+	top: -35px;
+}
+
+.card__time-left {
+	position: relative;
+	right: -220px;
+	top: -74px;
+}
+
+.creator-desc {
+	position: relative;
+	right: -50px;
+	top: -113px;
+}
+
+.card__avatar {
+	position: relative;
+	right: -3px;
+	top: -65px;
+	width: 30px;
+	border-radius: 50px;
+}
+
+.line {
+	position: relative;
+	background-color: var(--soft-blue);
+	right: -2px;
+	top: -75px;
+	width: 297px;
+	height: 0.8px;
+}
